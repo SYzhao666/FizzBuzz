@@ -3,11 +3,13 @@ package lab1;
 /**
  * Solve the lab1.FizzBuzz challenge.
  */
-class FizzBuzz {
+class FizzBuzz0 {
 
     public static void main(String[] args) {
 
-        for (int i = 1; i < 100; i++) {
+        int i = 1;
+
+        while (i < 100) {
 
             // Find out which numbers divide i.
             boolean divisibleBy3 = i % 3 == 0;
@@ -31,6 +33,7 @@ class FizzBuzz {
                 System.out.println(i);
 
             }
+            i += 1;
         }
     }
 }
